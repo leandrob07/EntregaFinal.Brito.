@@ -25,6 +25,24 @@ img {
     transform: scale(1.1);
     z-index:2
   }
+  .container1{
+    width: 700px;
+    }
+    .mapa{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.26%;
+    }
+    .mapa iframe{
+        position: absolute;
+        top: 1rem;
+        left: 0.5rem;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
 /*:::::Pie de Pagina*/
 .pie-pagina{
     width: 100%;
